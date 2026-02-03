@@ -1,0 +1,1 @@
+pyinstaller -F -w --icon="image/icon_software.ico" "source/atis_gui.py" -n "ATIS Generator.exe" --add-data C:\Users\一天两根冰棍\AppData\Roaming\Python\Python37\site-packages\librosa\util\example_data;librosa/util/example_data --hidden-import sklearn.utils._typedefs --hidden-import sklearn.neighbors._partition_nodes
