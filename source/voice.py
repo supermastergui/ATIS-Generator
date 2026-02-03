@@ -1,8 +1,11 @@
 #author#======================================
 #file:voice.py
 #wangxiaochen CFR7445 2022.01.14
-#Copyright (c) 2022 一天两根冰棍
 #=============================================
+#  File: voice.py
+#  Copyright (c) 2026 MasterGui All rights reserved.
+#  2026/2/3 23:29
+
 
 #import libraries#============================
 import pyttsx3
@@ -34,7 +37,7 @@ del_frequency = "121.35"
 string_to_voice = STRING_NULL
 ATIS_voice_volume = voice_volume * 100
 ATIS_voice_rate = voice_rate
-ATIS_voice_file_length = librosa.get_duration(filename = voice_output_dir + voice_output_name)
+ATIS_voice_file_length = librosa.get_duration(path = voice_output_dir + voice_output_name)
 ATIS_mode = atis_mode_dep
 #=============================================
 

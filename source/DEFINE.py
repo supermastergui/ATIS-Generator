@@ -1,10 +1,13 @@
 #author#======================================
 #file:DEFINE.py
 #wangxiaochen CFR7445 2022.01.14
-#Copyright (c) 2022 一天两根冰棍
 #=============================================
+#  File: DEFINE.py
+#  Copyright (c) 2026 MasterGui All rights reserved.
+#  2026/2/3 23:27
 
-#import libraries#============================
+
+#import libraries
 import os
 #=============================================
 
@@ -13,7 +16,8 @@ import os
 software_verion = "0.9.9-Beta" #软件版本
 software_title = "ATIS Generator (Ver " + software_verion + ") BY CFR7445" #设置软件名称
 software_dir = os.getcwd() #获取软件绝对路径
-software_icon_path = software_dir + "\image\icon.ico" #设置软件图标
+# software_icon_path = software_dir + "\image\icon.ico" #设置软件图标
+software_icon_path = "..\image\icon.ico" #设置软件图标
 software_windows_size = "600x620" #设置初始窗口大小
 #界面配置-----
 gui_headline_pady = 20 #标题栏纵向间隔

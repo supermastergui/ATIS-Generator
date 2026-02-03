@@ -1,10 +1,12 @@
 #author#======================================
 #file:atis_gui.py
 #wangxiaochen CFR7445 2022.01.14
-#Copyright (c) 2022 一天两根冰棍
 #=============================================
+#  File: atis_gui.py
+#  Copyright (c) 2026 MasterGui All rights reserved.
+#  2026/2/3 23:24
 
-#import libraries#============================
+#import libraries
 import string
 from tkinter.ttk import *
 from tkinter import *
@@ -12,13 +14,13 @@ from DEFINE import *
 from LIBRARY import *
 import voice
 from datetime import datetime
-from pykeyboard import PyKeyboard
+from pykeyboard import ReplyKeyboard
 from threading import Timer
 #=============================================
 
 #key value define#============================
 gui_windows = Tk() #创建根窗口
-gui_keyboard = PyKeyboard()
+gui_keyboard = ReplyKeyboard()
 gui_information_part = Frame(gui_windows, width = gui_information_part_xsize, height = gui_information_part_ysize, relief = "groove", borderwidth = gui_frame_borderwidth) #创建信息填写部分容器
 gui_button_part = Frame(gui_windows, width = gui_button_part_xsize, height = gui_button_part_ysize, relief = "groove", borderwidth = gui_frame_borderwidth) #创建按钮部分容器
 gui_message_part = Frame(gui_windows, width = gui_message_part_xsize, height = gui_message_part_ysize, relief = "groove", borderwidth = gui_frame_borderwidth) #创建按钮部分容器
