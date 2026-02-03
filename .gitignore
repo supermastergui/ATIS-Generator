@@ -1,3 +1,12 @@
+# ======================================
+# file: .gitignore
+# wangxiaochen CFR7445 2022.01.14
+# Copyright (c) 2022 一天两根冰棍
+# ======================================
+# 2026.02.03
+# Copyright (c) Master Gui
+# ======================================
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -149,3 +158,6 @@ cython_debug/
 
 # zip file
 *.zip
+
+# IDEA
+.idea
