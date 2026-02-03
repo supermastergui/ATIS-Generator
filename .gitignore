@@ -160,4 +160,4 @@ cython_debug/
 *.zip
 
 # IDEA
-.idea
+.idea/
